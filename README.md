@@ -28,3 +28,5 @@ The project is based on Domain Driven Design (DDD), but with a few exceptions.
 - The _dumbs_ layer for dumbs components, has ben renamed to **view** layer.
 
 The information flow starts in the _data layer_ and continues via the _deal layer_, the _domain layer_ contains the application's core logic.
+
+# Another
