@@ -1,0 +1,264 @@
+{
+  "bases": [
+    {
+      "id": 1,
+      "name": "regular dough",
+      "image": "bread",
+      "price": 10000
+    },
+    {
+      "id": 1,
+      "name": "thin dough",
+      "image": "butter-roll",
+      "price": 12000
+    },
+    {
+      "id": 1,
+      "name": "cheese rim dough",
+      "image": "croissant",
+      "price": 15000
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "pepperoni",
+      "image": "sausage",
+      "price": 45000
+    },
+    {
+      "id": 2,
+      "name": "chicken",
+      "image": "fried-turkey",
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "name": "ham",
+      "image": "meet-haunch",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "barbecue",
+      "image": "salad",
+      "price": 3000
+    },
+    {
+      "id": 5,
+      "name": "garlic",
+      "image": "salad",
+      "price": 3000
+    },
+    {
+      "id": 6,
+      "name": "carrot",
+      "image": "carrot",
+      "price": 3000
+    },
+    {
+      "id": 7,
+      "name": "cheese",
+      "image": "cheese",
+      "price": 3000
+    },
+    {
+      "id": 8,
+      "name": "eggplant",
+      "image": "eggplant",
+      "price": 3000
+    },
+    {
+      "id": 9,
+      "name": "egg",
+      "image": "fried-egg",
+      "price": 3000
+    },
+    {
+      "id": 10,
+      "name": "anchovies",
+      "image": "fish-2",
+      "price": 3000
+    },
+    {
+      "id": 11,
+      "name": "salmon",
+      "image": "fish-ring",
+      "price": 3000
+    },
+    {
+      "id": 12,
+      "name": "tuna",
+      "image": "fish",
+      "price": 3000
+    },
+    {
+      "id": 13,
+      "name": "basil & tomato",
+      "image": "salad",
+      "price": 3000
+    },
+    {
+      "id": 14,
+      "name": "boletus",
+      "image": "salad",
+      "price": 3000
+    },
+    {
+      "id": 15,
+      "name": "tomato sauce",
+      "image": "salad",
+      "price": 3000
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "name": "strawberry juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    },
+    {
+      "id": 2,
+      "name": "watermelon juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    },
+    {
+      "id": 3,
+      "name": "pear juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "apple juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    },
+    {
+      "id": 5,
+      "name": "banana juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    },
+    {
+      "id": 6,
+      "name": "peach juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    },
+    {
+      "id": 7,
+      "name": "orange juice",
+      "image": "drinks",
+      "color": "#ffffff",
+      "price": 3000
+    }
+  ],
+  "fruits": [
+    {
+      "id": 2,
+      "name": "watermelon",
+      "image": "watermelon",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "apple",
+      "image": "apple",
+      "price": 3000
+    },
+    {
+      "id": 5,
+      "name": "banana",
+      "image": "banana",
+      "price": 3000
+    }
+  ],
+  "additionals": [
+    {
+      "id": 1,
+      "name": "fires",
+      "image": "french-fires",
+      "price": 3000
+    }
+  ],
+  "desserts": [
+    {
+      "id": 1,
+      "name": "ice cream",
+      "image": "ice-cream-cone",
+      "price": 3000
+    },
+    {
+      "id": 2,
+      "name": "muffin",
+      "image": "muffin",
+      "price": 3000
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "napolitan",
+      "base": {
+        "id": 1,
+        "name": "regular dough",
+        "image": "bread"
+      },
+      "ingredients": [
+        {
+          "id": 13,
+          "name": "basil & tomato",
+          "image": "salad"
+        },
+        {
+          "id": 7,
+          "name": "cheese",
+          "image": "cheese"
+        },
+        {
+          "id": 15,
+          "name": "tomato sauce",
+          "image": "salad"
+        }
+      ],
+      "price": 21000
+    }
+  ],
+  "commands": [
+    {
+      "id": 1,
+      "name": "Felipe Tovar",
+      "phone": 30021584759,
+      "created_at": "2021-12-30T08:18:52.076Z",
+      "pizza": {
+        "id": 1,
+        "name": "napolitan",
+        "price": 210000
+      },
+      "extras": [
+        {
+          "id": 1,
+          "name": "juice",
+          "image": "drinks",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "apple",
+          "image": "apple",
+          "quantity": 2
+        }
+      ],
+      "total": 33000
+    }
+  ]
+}
