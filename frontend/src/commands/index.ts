@@ -1,0 +1,1 @@
+export { useAdditionals } from "./deal"
