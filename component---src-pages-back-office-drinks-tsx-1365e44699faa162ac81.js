@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[942],{3959:function(e,l,t){t.r(l);var r=t(7294),n=t(8133);l.default=function(){return r.createElement(n.Ar,null,r.createElement("h1",null,"Hello world!"))}}}]);
+//# sourceMappingURL=component---src-pages-back-office-drinks-tsx-1365e44699faa162ac81.js.map

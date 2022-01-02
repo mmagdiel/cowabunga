@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[593],{7141:function(e,l,t){t.r(l);var r=t(7294),n=t(8133);l.default=function(){return r.createElement(n.Ar,null,r.createElement("h1",null,"Hello world!"))}}}]);
+//# sourceMappingURL=component---src-pages-back-office-ingredients-tsx-0ebaa2a1c54593e46ce3.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[559],{3210:function(e,t,l){l.r(t);var r=l(7294),a=l(8133);t.default=function(){return r.createElement(a.Ar,null,r.createElement("h1",null,"Pizza base"))}}}]);
+//# sourceMappingURL=component---src-pages-back-office-bases-tsx-21f764f91d4f5f923ef6.js.map
