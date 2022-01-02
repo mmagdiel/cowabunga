@@ -8,6 +8,7 @@ const process = require("dotenv").config()
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: `/cowabunga`,
   siteMetadata: {
     root: process.parsed.API_URL,
   },
