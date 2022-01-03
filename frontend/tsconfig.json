@@ -18,8 +18,13 @@
       "~pages/*": ["src/pages/*"],
       "~core": ["src/core"],
       "~core/*": ["src/core/*"],
-      "~interfaces/*": ["src/core/interfaces/*"],
-      "~assets/*": ["src/assets/*"],
+      "~commands": ["src/commands/"],
+      "~commands/*": ["src/commands/*"],
+      "~pizzas": ["src/pizzas"],
+      "~pizzas/*": ["src/pizzas/*"],
+      "~tracking": ["src/tracking"],
+      "~tracking/*": ["src/tracking/*"],
+      "~icons/*": ["src/assets/icons/*"],
       "~images/*": ["src/assets/images/*"]
     },
     "plugins": [

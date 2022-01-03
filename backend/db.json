@@ -7,13 +7,13 @@
       "price": 10000
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "thin dough",
       "image": "butter-roll",
       "price": 12000
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "cheese rim dough",
       "image": "croissant",
       "price": 15000
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "name": "garlic",
-      "image": "salad",
+      "image": "garlic",
       "price": 3000
     },
     {
@@ -101,13 +101,19 @@
     {
       "id": 14,
       "name": "boletus",
-      "image": "salad",
+      "image": "boletus",
       "price": 3000
     },
     {
       "id": 15,
       "name": "tomato sauce",
-      "image": "salad",
+      "image": "tomato",
+      "price": 3000
+    },
+    {
+      "id": 16,
+      "name": "champignon",
+      "image": "champignon",
       "price": 3000
     }
   ],
@@ -115,49 +121,49 @@
     {
       "id": 1,
       "name": "strawberry juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     },
     {
       "id": 2,
       "name": "watermelon juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     },
     {
       "id": 3,
       "name": "pear juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     },
     {
       "id": 4,
       "name": "apple juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     },
     {
       "id": 5,
       "name": "banana juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     },
     {
       "id": 6,
       "name": "peach juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     },
     {
       "id": 7,
       "name": "orange juice",
-      "image": "drinks",
+      "image": "drink",
       "color": "#ffffff",
       "price": 3000
     }
@@ -227,10 +233,11 @@
         {
           "id": 15,
           "name": "tomato sauce",
-          "image": "salad"
+          "image": "tomato"
         }
       ],
-      "price": 21000
+      "price": 21000,
+      "image": "pizza-slice"
     }
   ],
   "commands": [

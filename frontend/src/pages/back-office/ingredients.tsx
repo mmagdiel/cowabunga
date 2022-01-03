@@ -1,10 +1,12 @@
 import React from "react"
+import { Ingredients } from "~pizzas"
 import { Layout } from "../../core"
 
 function ingredients() {
   return (
     <Layout>
-      <h1>Hello world!</h1>
+      <h1>Ingredients</h1>
+      <Ingredients />
     </Layout>
   )
 }

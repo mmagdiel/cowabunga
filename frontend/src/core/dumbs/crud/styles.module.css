@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list {
+  flex-basis: 20rem;
+}
+
+.form {
+  flex-basis: 20rem;
+}

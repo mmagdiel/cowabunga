@@ -1,10 +1,12 @@
 import React from "react"
-import { Layout } from "../../core"
+import { Additionals } from "~commands"
+import { Layout } from "~core"
 
 function additionals() {
   return (
     <Layout>
-      <h1>Hello world!</h1>
+      <h1>Additionals</h1>
+      <Additionals />
     </Layout>
   )
 }

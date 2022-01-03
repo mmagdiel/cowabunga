@@ -1,1 +1,5 @@
 export { useAdditionals } from "./useAdditionals"
+export { useDesserts } from "./useDesserts"
+export { useDrinks } from "./useDrinks"
+export { useFruits } from "./useFruits"
+export { usePizzas } from "./usePizzas"

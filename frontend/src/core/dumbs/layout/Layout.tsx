@@ -1,7 +1,7 @@
 import clsx from "clsx"
 import { Link } from "gatsby"
 import React, { useState } from "react"
-import { ReactComponent as Logo } from "~assets/icons/logo.svg"
+import { ReactComponent as Logo } from "~icons/logo.svg"
 import * as styles from "./styles.module.css"
 
 function Layout({ children }) {

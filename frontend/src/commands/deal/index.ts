@@ -1,1 +1,7 @@
-export { useAdditionals } from "./services"
+export {
+  useAdditionals,
+  useDesserts,
+  useDrinks,
+  useFruits,
+  usePizzas,
+} from "./services"

@@ -1,10 +1,12 @@
 import React from "react"
+import { Drinks } from "~commands"
 import { Layout } from "../../core"
 
 function drinks() {
   return (
     <Layout>
-      <h1>Hello world!</h1>
+      <h1>Drinks</h1>
+      <Drinks />
     </Layout>
   )
 }

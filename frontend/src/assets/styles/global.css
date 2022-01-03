@@ -12,18 +12,18 @@
   --width-card-medium: 460px;
   --width-card-wide: 800px;
   --width-content: 1080px;
-
   --color: #86b049;
   --color-accent: #dff5ce;
   --color-bg: #333;
   --color-bg-secondary: #e9e9e9;
   --color-link: #86b049;
-  --color-secondary: #525b88;
+  --color-secondary: #a7acc2;
   --color-secondary-accent: #dee2fc;
   --color-shadow: #bbbbbb20;
   --color-table: #86b049;
   --color-text: #f7f7f7;
   --color-text-secondary: #aaa;
+  --color-text-error: #e64925;
 }
 
 /* Layout */
@@ -366,7 +366,13 @@ select,
 textarea {
   display: block;
   font-size: inherit;
+  margin: auto 0.2rem;
   max-width: var(--width-card-wide);
+}
+
+label span {
+  color: var(--color-text-error);
+  font-size: 0.75rem;
 }
 
 input[type="checkbox"],
@@ -387,7 +393,6 @@ select,
 textarea {
   border: 1px solid var(--color-bg-secondary);
   border-radius: var(--border-radius);
-  margin-bottom: 1rem;
   padding: 0.4rem 0.8rem;
 }
 
@@ -398,7 +403,7 @@ textarea[readonly] {
 
 label {
   font-weight: bold;
-  margin-bottom: 0.2rem;
+  margin-bottom: 1rem;
 }
 
 /* Tables */
