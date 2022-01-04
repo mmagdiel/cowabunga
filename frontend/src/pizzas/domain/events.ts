@@ -1,0 +1,4 @@
+const SELECT_BASE = "SELECT_BASE"
+const IDENTITY = "IDENTITY"
+
+export { SELECT_BASE, IDENTITY }

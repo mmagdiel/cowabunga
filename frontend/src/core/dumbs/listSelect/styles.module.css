@@ -1,0 +1,22 @@
+.list {
+  padding: 0.3rem;
+  list-style: none;
+  background-color: var(--color-shadow);
+}
+.list_item {
+  display: flex;
+  font-size: 16px;
+  color: var(--color-accent);
+  justify-content: space-between;
+}
+.list_item:hover {
+  background-color: var(--color-bg);
+}
+.list_item p {
+  margin: 0;
+}
+.list_item_icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-accent);
+}

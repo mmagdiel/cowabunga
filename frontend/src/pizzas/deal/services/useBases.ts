@@ -1,8 +1,8 @@
-import useSWR from "swr"
+import useSWRImmutable from "swr/immutable"
 import { earn } from "../../../core"
 
 function useBases(api) {
-  const { data, error } = useSWR(`${api}/bases`, earn)
+  const { data, error } = useSWRImmutable(`${api}/bases`, earn)
   const isLoading = !error && !data
   const isError = Boolean(error)
   return {

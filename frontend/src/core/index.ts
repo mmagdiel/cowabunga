@@ -1,2 +1,3 @@
 export { earn, send, useRoot } from "./data"
-export { Crud, Error, Layout, Loading } from "./dumbs"
+export { createOnceSwitcher } from "./deal"
+export { Crud, Error, Hero, Layout, List, Loading, Step, Steper } from "./dumbs"

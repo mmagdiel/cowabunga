@@ -1,0 +1,14 @@
+.container {
+  margin: 3rem auto 0.5rem;
+}
+.selected {
+  color: var(--color-accent);
+}
+.selected hr {
+  margin: 0.5rem auto;
+}
+.selected_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
