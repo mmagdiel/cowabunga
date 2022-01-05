@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const send = (url: string, body: any) =>
+const send = <T extends object>(url: string, body: T) =>
   axios
     .post(url, body, {
       headers: {

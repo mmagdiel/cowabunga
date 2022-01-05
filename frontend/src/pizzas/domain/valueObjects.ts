@@ -4,7 +4,7 @@ function selectBase(state, payload) {
   return { ...state, base: payload }
 }
 
-function id(state, payload) {
+function id(state, _) {
   return state
 }
 
